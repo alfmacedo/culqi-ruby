@@ -3,7 +3,7 @@ $:.unshift(File.join(File.dirname(__FILE__), 'lib'))
 require 'culqi/version'
 
 Gem::Specification.new do |s|
-  s.name          = 'culqi-ruby-oficial'
+  s.name          = 'culqi-ruby'
   s.version       = Culqi::VERSION
   s.date          = '2023-08-16'
   s.summary       = "Culqi Ruby"
