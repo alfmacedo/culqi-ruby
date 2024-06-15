@@ -3,7 +3,7 @@ GEM
   specs:
     domain_name (0.5.20190701)
       unf (>= 0.0.5, < 1.0.0)
-    excon (0.100.0)
+    excon (0.105.0)
     http-accept (1.7.0)
     http-cookie (1.0.5)
       domain_name (~> 0.5)
