@@ -6,9 +6,9 @@ Nuestra Biblioteca Culqi-Ruby oficial, es compatible con la v2.0 del Culqi API, 
 
 Nuestra biblioteca te da la posibilidad de capturar el `status_code` de la solicitud HTTP que se realiza al API de Culqi, así como el `response` que contiene el cuerpo de la respuesta obtenida.
 
-| Versión actual|Culqi API|
-|----|----|
-| [1.0.0](https://rubygems.org/gems/culqi-ruby) (2023-08-11) |[v2](https://culqi.com/api)|
+| Versión actual                                                     |Culqi API|
+|--------------------------------------------------------------------|----|
+| [1.0.0](https://rubygems.org/gems/culqi-ruby-oficial) (2023-08-11) |[v2](https://culqi.com/api)|
 
 
 ## Requisitos
@@ -38,6 +38,12 @@ bundle install
 gem build culqi-ruby.gemspec
 gem install ./culqi-ruby-{VERSION}.gem
 gem push culqi-ruby-{VERSION}.gem
+```
+
+## Instalar directamente en Gemfile
+
+```bash
+gem 'culqi-ruby', github: 'alfmacedo/culqi-ruby'
 ```
 
 ## Configuracion

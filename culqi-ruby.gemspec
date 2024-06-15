@@ -17,4 +17,6 @@ Gem::Specification.new do |s|
   s.files         = Dir['lib/**/*.rb']
   s.require_paths = ['lib']
   s.required_ruby_version = '>= 3.0.0'
+  s.add_runtime_dependency 'excon'
+  s.add_runtime_dependency 'openssl-oaep'
 end
